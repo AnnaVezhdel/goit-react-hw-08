@@ -7,7 +7,6 @@ body {
   line-height: 1.5;
   color: rgba(16, 11, 116, 0.87);
   background-color: #3bc9dc;
-  margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -24,7 +23,6 @@ button {
 }
 .container {
   max-width: 1200px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;

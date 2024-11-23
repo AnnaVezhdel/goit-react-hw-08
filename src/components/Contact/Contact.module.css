@@ -1,7 +1,7 @@
 .contactItem {
   display: flex;
   justify-content: space-between;
-  width: 260px;
+  width: 300px;
   border: 1px solid;
   border-radius: 6px;
   box-shadow: 2px 2px 4px blue;
@@ -29,5 +29,20 @@
       cursor: pointer;
       background-color: blue;
     }
+  }
+}
+.contactData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  & p {
+    margin: 0 4px;
+  }
+  & svg {
+    margin: 4px;
   }
 }
