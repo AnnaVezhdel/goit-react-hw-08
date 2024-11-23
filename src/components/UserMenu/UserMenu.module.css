@@ -1,7 +1,7 @@
 .wrap {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
+  width: 400px;
 }
 .exitBtn {
   display: flex;
