@@ -25,6 +25,7 @@
     border-radius: 6px;
     background-color: rgb(35, 35, 160);
     &:hover {
+      color: aqua;
       cursor: pointer;
       background-color: blue;
     }
